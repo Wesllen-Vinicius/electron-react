@@ -1,14 +1,17 @@
 import React from 'react';
+import { BrowserRouter } from 'react-router-dom';
 import AppBar from './AppBar';
 import AppFooter from './components/Footer';
-import AppLogin from './components/Login';
+import Rotas from './routes';
 
 function App() {
   return (
     <>
-      <AppBar />
-      <AppLogin />
-      <AppFooter />
+      <BrowserRouter>
+        <AppBar />
+        <Rotas />
+        <AppFooter />
+      </BrowserRouter>
     </>
   );
 }
