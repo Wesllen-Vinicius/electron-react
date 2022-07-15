@@ -1,5 +1,5 @@
 import React from 'react';
-import AppFooter from './Footer';
+
 
 function AppLogin() {
   return (
@@ -17,19 +17,14 @@ function AppLogin() {
               <span className="label-text">Password</span>
             </label>
             <input type="password" placeholder="password" className="input input-bordered" />
-            <label className="label">
-              <a href="#" className="label-text-alt link link-hover">
-                Forgot password?
-              </a>
-            </label>
-            <button className="btn btn-primary">
-              <a href="/register" className="label-text-alt link link-hover text-white">
-                New Here, Register!
-              </a>
-            </button>
+            <a href="/register" className="label-text-alt  text-white">
+              <button className="btn btn-primary">New Here, Register!</button>
+            </a>
           </div>
           <div className="form-control mt-6 text-white">
-            <button className=" btn btn-success">Login</button>
+            <a href="/home" className="label-text-alt">
+              <button className=" btn btn-success">Login</button>
+            </a>
           </div>
         </div>
       </div>

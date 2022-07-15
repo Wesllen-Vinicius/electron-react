@@ -26,11 +26,13 @@ function AppRegister() {
           <div className="form-control mt-6">
             <button className="btn btn-primary">Register</button>
           </div>
-          <button className="btn btn-accent">
-            <a href="/" className="label-text-alt link link-hover">
+          
+            <a href="/" className="label-text-alt">
+            <button className="btn btn-accent">
               Return to Login
+              </button>
             </a>
-          </button>
+          
         </div>
       </div>
     </div>
